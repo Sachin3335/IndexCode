@@ -1,0 +1,198 @@
+body{
+    margin: 0rem;
+    padding:0rem;
+    background-image: url("background.jpg"); 
+    background-color: rgba(45, 1, 64, 0.772);
+    
+}
+#nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    width: 60rem;
+    align-items: center;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#imag{
+    border-image: round;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 7rem;
+    margin-top: 0.25rem;
+}
+a{   
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0; 
+    color: black;
+    font-size: 25px; 
+}
+
+a:hover{
+    color: rgb(245, 76, 76);
+}
+
+#search{
+    height: 35px;
+    width: 12rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin-left: 20px;
+}
+#Click{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-right: 20px;
+}
+
+#search:hover{
+    background-color: rgb(1, 1, 39);
+    color: aquamarine;
+}
+
+#Click:hover{
+    background-color: rgb(1, 1, 39);
+    color: azure;
+}
+h4{
+    padding-left: 0.5rem;
+    font-size: 20px;
+}
+#contant{
+    border-radius: 2rem;
+    margin-top: 2.8rem;
+    margin-left: 8rem;
+    padding-top: 20px;
+    width: 350px;
+    height: 320px;
+    background-color: beige;
+}
+#para {
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    white-space: pre-wrap;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+
+#foot {
+    text-align: center;
+    padding: 20px; 
+    background-color: rgb(4, 4, 36);
+    margin-top: 5rem;
+}
+
+.foot {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.foot li{
+    margin: 0 15px; 
+    color: beige;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in 0.25s;
+}
+
+.foot li:hover{
+    color: rgb(211, 82, 82);
+}
+
+h4:hover{
+    color: rgb(211, 82, 82);
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    background: lightgray;
+    border: 1px solid #333;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0; /* Initially hidden */
+}
+#chart{
+    margin-top: 2.8rem;
+    align-items: center;
+    height: 20rem;
+    width: 35rem;
+    margin-right: 0rem;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#chartContent{
+    background-color: white;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 25rem;
+    margin-left: 7rem;
+    height: 30rem;
+}
+
+h3{
+    color: white;
+}
+#fillForm {
+    width: 300px;
+    padding: 20px; 
+    background-color: rgb(4, 2, 40);
+    display: inline-block;
+    border: 1px solid #ccc; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    margin-top: 5rem;
+    margin-left: 27rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+#fillForm input {
+    width: 90%; 
+    padding: 8px; 
+    margin: 10px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+#fillForm button {
+    padding: 10px 20px;
+    background-color: #032e3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#fillForm h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+#p{
+    color: azure;
+}
